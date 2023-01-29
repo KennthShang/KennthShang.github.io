@@ -1,0 +1,59 @@
+### <font size=1>Welcome to my home page </font>
+<div>
+<table border="0">
+  <tr>
+    <td width="60%">
+      <h1>Jiayu SHANG</h1>
+      <p><b>Dept. of Electrical Engineering</b></p>
+      <p><b>City University of Hong Kong</b></p>
+      <p><b>jyshang2-c AT cityu DOT edu DOT hk</b></p>
+       <p><a href="/publication.html">[Publication]</a> <a href="/research_area.html">[Research Area]</a><a href="/News1.html">[News]</a></p>
+    </td>
+    <td width="40%">
+      <img src="imgs/jyshang.jpg" width="150%">
+    </td>  
+  </tr>
+</table>
+</div>
+
+
+
+
+---
+
+Jiayu SHANG is an Ph. D. dtudent in the Department of Electrical Engineering at City University of Hong Kong.  He received the B.S. degrees from Sun Yat-sen University (Guangdong, China) in Computer Science. His research field is bioinformatics and computational biology. In particular, His recent research projects include applying deep learning models in biological sequence analysis, next-generation sequencing data analysis, metagenomics, protein domain annotation.
+
+---
+## EDUCATION
+
+- Ph.D. in Electrical Engineering, City University of Hong Kong, Hong Kong, China SAR.
+  - Advisor: Dr. Yanni Sun.
+
+- B.S. in Computer Science, Sun Yat-sen University, Guangdong, China.
+
+## Research Interests
+
+- Computational biology and Bioinformatics
+- deep learning-based sequence analysis
+- BIG genomic data mining
+- algorithm design and tool development
+
+1. Microbial community analysis using high-throughput sequencing data
+   - Composition analysis of metagenomics data sequenced from host-associated or environmental samples
+
+2. Virus diversity analysis using deep sequencing data
+
+   - Viral population characterization using shot-gun deep sequencing data
+
+   - Virus identification, classification, and host prediction using deep learning models
+
+4. Algorithm design for mining third-generation sequencing data
+
+   - Error correction of long reads
+
+   - De novo assembly of virus genomes using long reads
+
+---
+## Visit Map
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=QqWiqtgpvhS5l2vUR-NBmZiV5sSdT6Hqfp8yYaFtTlY&cl=ffffff&w=a"></script>
