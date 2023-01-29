@@ -22,8 +22,6 @@
 
 
 
-
-
 ---
 
 Jiayu SHANG is an Ph. D. dtudent in the Department of Electrical Engineering at City University of Hong Kong.  He received the B.S. degrees from Sun Yat-sen University (Guangdong, China) in Computer Science. His research field is bioinformatics and computational biology. In particular, His recent research projects include applying deep learning models in biological sequence analysis, next-generation sequencing data analysis, metagenomics, protein domain annotation.
@@ -59,7 +57,18 @@ Jiayu SHANG is an Ph. D. dtudent in the Department of Electrical Engineering at 
 
    - De novo assembly of virus genomes using long reads
 
----
+
+
+## News
+
+A new integrated software named PhaBOX for phage sequence analysis has been developed!
+
+<img src="imgs/pipelines.png" width="90%">
+
+To try PhaBOX, please click the link [PhaBOX](https://phage.ee.cityu.edu.hk/)
+
+
+
 ## Visit Map
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=_BQeut-tto4nVGqL5_oY8uyP1gR9036U8uYK77f-dyc&co=74b1e8&cmn=cc3a8b'></script>
