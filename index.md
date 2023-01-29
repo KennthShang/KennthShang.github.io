@@ -7,7 +7,10 @@
       <p><b>Dept. of Electrical Engineering</b></p>
       <p><b>City University of Hong Kong</b></p>
       <p><b>jyshang2-c AT cityu DOT edu DOT hk</b></p>
-       <p><a href="/publication.html">[Publication]</a><a href="/News1.html">[News]</a><a href="https://scholar.google.com/citations?user=pz7piN8AAAAJ">[Google Schoolar]</a></p>
+       <p><a href="/publication.html">[Publication]</a><a href="/News.html">[News]</a><a href="https://scholar.google.com/citations?user=pz7piN8AAAAJ">[Google Schoolar]</a></p>
+      <p>
+        <a href="https://github.com/KennthShang">[GitHub]</a>
+      </p>
     </td>
     <td width="40%">
       <img src="imgs/jyshang.jpg" width="150%">
