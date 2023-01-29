@@ -37,15 +37,13 @@ Jiayu SHANG is an Ph. D. student in the Department of Electrical Engineering at 
 ## Research Interests
 
 - Computational biology and Bioinformatics
-- deep learning-based sequence analysis
+- Deep learning-based sequence analysis
 - BIG genomic data mining
-- algorithm design and tool development
+- Algorithm design and tool development
 
 1. Microbial community analysis using high-throughput sequencing data
    - Composition analysis of metagenomics data sequenced from host-associated or environmental samples
 
-     
-   
 2. Virus diversity analysis using deep sequencing data
 
    - Viral population characterization using shot-gun deep sequencing data
