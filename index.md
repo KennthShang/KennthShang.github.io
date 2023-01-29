@@ -9,7 +9,7 @@
       <p><b>jyshang2-c AT cityu DOT edu DOT hk</b></p>
        <p><a href="/publication.html">[Publication]</a><a href="/News.html">[News]</a><a href="https://scholar.google.com/citations?user=pz7piN8AAAAJ">[Google Schoolar]</a></p>
       <p>
-        <a href="https://github.com/KennthShang">[GitHub]</a><a href="/imgs/CV.pdf">[CV]</a>
+        <a href="https://github.com/KennthShang">[GitHub]</a><a href="/imgs/SHANG_Jiayu_CV.pdf">[CV]</a>
       </p>
     </td>
     <td width="40%">
