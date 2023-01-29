@@ -19,6 +19,7 @@
 
 
 
+
 ---
 
 Jiayu SHANG is an Ph. D. dtudent in the Department of Electrical Engineering at City University of Hong Kong.  He received the B.S. degrees from Sun Yat-sen University (Guangdong, China) in Computer Science. His research field is bioinformatics and computational biology. In particular, His recent research projects include applying deep learning models in biological sequence analysis, next-generation sequencing data analysis, metagenomics, protein domain annotation.
@@ -27,7 +28,7 @@ Jiayu SHANG is an Ph. D. dtudent in the Department of Electrical Engineering at 
 ## EDUCATION
 
 - Ph.D. in Electrical Engineering, City University of Hong Kong, Hong Kong, China SAR.
-  - Advisor: Dr. Yanni Sun.
+  - Advisor: [Dr. Yanni Sun](https://scholar.google.com/citations?user=1wloHDIAAAAJ).
 
 - B.S. in Computer Science, Sun Yat-sen University, Guangdong, China.
 
