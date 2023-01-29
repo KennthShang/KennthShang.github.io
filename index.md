@@ -63,7 +63,7 @@ Jiayu SHANG is an Ph. D. dtudent in the Department of Electrical Engineering at 
 
 A new integrated software named PhaBOX for phage sequence analysis has been developed!
 
-<img src="imgs/pipelines.png" width="90%">
+<img src="imgs/pipelines.png" width="90%" margin:0>
 
 To try PhaBOX, please click the link [PhaBOX](https://phage.ee.cityu.edu.hk/)
 
