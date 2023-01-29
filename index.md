@@ -7,7 +7,7 @@
       <p><b>Dept. of Electrical Engineering</b></p>
       <p><b>City University of Hong Kong</b></p>
       <p><b>jyshang2-c AT cityu DOT edu DOT hk</b></p>
-       <p><a href="/publication.html">[Publication]</a> <a href="/research_area.html">[Research Area]</a><a href="/News1.html">[News]</a></p>
+       <p><a href="/publication.html">[Publication]</a><a href="/News1.html">[News]</a></p>
     </td>
     <td width="40%">
       <img src="imgs/jyshang.jpg" width="150%">
@@ -41,12 +41,13 @@ Jiayu SHANG is an Ph. D. dtudent in the Department of Electrical Engineering at 
 1. Microbial community analysis using high-throughput sequencing data
    - Composition analysis of metagenomics data sequenced from host-associated or environmental samples
 
+     
+   
 2. Virus diversity analysis using deep sequencing data
 
    - Viral population characterization using shot-gun deep sequencing data
-
    - Virus identification, classification, and host prediction using deep learning models
-
+   
 4. Algorithm design for mining third-generation sequencing data
 
    - Error correction of long reads
