@@ -49,11 +49,8 @@ Jiayu SHANG is an Ph. D. student in the Department of Electrical Engineering at 
    - Viral population characterization using shot-gun deep sequencing data
    - Virus identification, classification, and host prediction using deep learning models
    
-4. Algorithm design for mining third-generation sequencing data
+4. Algorithm design for mining sequencing data
 
-   - Error correction of long reads
-
-   - De novo assembly of virus genomes using long reads
 
 
 
