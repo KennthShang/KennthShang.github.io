@@ -1,8 +1,29 @@
 
 ## News
 
+
+
 <div align="center">
 <table border="0">
+    <table>
+    <tr>
+    <td>
+      <h2> A plasmid identification tool was accepted for publication by Nucleic Acids Research! </h2>
+      <p><b>Jun. 24, 2023</b></p>
+      <p>Plasmids are mobile genetic elements that carry crucial accessory genes. Cataloging plasmids is a fundamental step in elucidating their role in promoting horizontal gene transfer between bacteria. To identify plasmid contigs from short-read assemblies, we developed a tool called PLASMe that utilizes the Transformer. PLASMe leverages the strengths of both alignment and learning-based methods. The alignment component in PLASMe facilitates the easy identification of closely related plasmids, while order-specific Transformer models predict diverged plasmids with accuracy. 
+      The tool is available at <a href="https://github.com/HubertTang/PLASMe">PLASMe.</a> Check out the paper at <a href="https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkad578/7222081">PLASMe: a tool to identify PLASMid contigs from short-read assemblies using transformer</a></p>
+    </td>   
+  </tr>  
+  </table>
+  <table>
+    <tr>
+    <td>
+      <h2> A plasmid host prediction tool was accepted for publication by Bioinformatics!</h2>
+      <p><b>Apr. 19, 2023</b></p>
+      <p> In this work, we construct a tool named HOTSPOT, aiming at predicting the host association of plasmids. By incorporating the state-of-the-art language model, Transformer, in each node’s taxon classifier, the top-down tree search achieves an accurate host taxonomy prediction for the input plasmid contigs. We rigorously tested HOTSPOT on multiple datasets and all experiments show that HOTSPOT outperforms other popular methods. The tool is available at <a href="https://academic.oup.com/bioinformatics/article/39/5/btad283/7136643">HOTSPOT</a> Check out the paper at <a href="https://academic.oup.com/bioinformatics/article/39/5/btad283/7136643">HOTSPOT: hierarchical host prediction for assembled plasmid contigs with transformer</a></p>     
+    </td>   
+  </tr>  
+  </table> 
   <table>
     <tr>
     <td>
