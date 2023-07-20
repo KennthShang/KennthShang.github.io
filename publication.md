@@ -1,5 +1,10 @@
-## Publication
-- **Shang, J.**, Tang, X., Sun, Y. (2023). PhaTYP: predicting the lifestyle for bacteriophages using BERT, *Briefings in Bioinformatics*, Volume 24. [Link](https://academic.oup.com/bib/article/24/1/bbac487/6842869)
+## Publication (listed by time)
+
+- **Shang, J.**, Peng, C., Liao, H., Tang, X., & Sun, Y. "PhaBOX: A web server for identifying and characterizing phage contigs in metagenomic data." ISMB/ECCB 2023 (Accepted, 17% acceptance rate)
+- **Shang, J.**, Peng, C., Tang, X., & Sun, Y. "PhaVIP: Phage VIrion Protein classification based on chaos game representation and Vision Transformer." ISMB/ECCB 2023 (Accepted, 17% acceptance rate)
+- Tang, X., **Shang, J.**, Ji, Y., & Sun, Y. (2023). PLASMe: a tool to identify PLASMid contigs from short-read assemblies using transformer. Nucleic Acids Research, gkad578. [Link]([https://academic.oup.com/bib/article/23/2/bbac011/6523411](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkad578/7222081))
+- **Shang, J.**, Tang, X., & Sun, Y. (2023). PhaTYP: predicting the lifestyle for bacteriophages using BERT, *Briefings in Bioinformatics*, Volume 24. [Link](https://academic.oup.com/bib/article/24/1/bbac487/6842869)
+- Ji, Y., **Shang, J.**, Tang, X., & Sun, Y. (2023). HOTSPOT: hierarchical host prediction for assembled plasmid contigs with transformer. Bioinformatics, 39(5), btad283.[Link](https://academic.oup.com/bioinformatics/article/39/5/btad283/7136643)
 -  Jiang, J. Z., Yuan, W. G., **Shang, J.**, Shi, Y. H., Yang, L. L., Liu, M., ... & Yuan, L. H. (2023). Virus classification for viral genomic fragments using PhaGCN2. Briefings in Bioinformatics, Volume 24 **(co-first author). **[Link](https://doi.org/10.1093/bib/bbac505)
 - Zhu Y., **Shang, J.**, Peng, C., & Sun, Y. (2022). Phage family classification under Caudoviricetes: A review of current tools using the latest ICTV classification framework. Frontiers in Microbiology, Volume 13 **(co-first author)**. [Link](https://www.frontiersin.org/articles/10.3389/fmicb.2022.1032186/full)
 - Cai, D., **Shang, J.**, & Sun, Y. (2022). HaploDMF: viral haplotype reconstruction from long reads via deep matrix factorization. Bioinformatics, Volume 38. [Link](https://academic.oup.com/bioinformatics/article/38/24/5360/6780015)
