@@ -1,7 +1,8 @@
 ## Publication (listed by time)
+### The following works have been done during my Ph.D. study.
 
-- **Shang, J.**, Peng, C., Liao, H., Tang, X., & Sun, Y. "PhaBOX: A web server for identifying and characterizing phage contigs in metagenomic data." ISMB/ECCB 2023 (proceeding paper, 17% acceptance rate)
-- **Shang, J.**, Peng, C., Tang, X., & Sun, Y. "PhaVIP: Phage VIrion Protein classification based on chaos game representation and Vision Transformer." Accepted by Bioinformatics Advance. [arXiv link](https://arxiv.org/pdf/2303.15707.pdf)
+- **Shang, J.**, Peng, C., Liao, H., Tang, X., & Sun, Y. "PhaBOX: A web server for identifying and characterizing phage contigs in metagenomic data." Accepted by Bioinformatics Advance. vbad101. [arXiv link](https://arxiv.org/pdf/2303.15707.pdf)
+- **Shang, J.**, Peng, C., Tang, X., & Sun, Y. "PhaVIP: Phage VIrion Protein classification based on chaos game representation and Vision Transformer." ISMB/ECCB 2023 (proceeding paper, 17% acceptance rate)
 - Tang, X., **Shang, J.**, Ji, Y., & Sun, Y. (2023). PLASMe: a tool to identify PLASMid contigs from short-read assemblies using transformer. Nucleic Acids Research, gkad578. [Link]([https://academic.oup.com/bib/article/23/2/bbac011/6523411](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkad578/7222081))
 - **Shang, J.**, Tang, X., & Sun, Y. (2023). PhaTYP: predicting the lifestyle for bacteriophages using BERT, *Briefings in Bioinformatics*, Volume 24. [Link](https://academic.oup.com/bib/article/24/1/bbac487/6842869)
 - Ji, Y., **Shang, J.**, Tang, X., & Sun, Y. (2023). HOTSPOT: hierarchical host prediction for assembled plasmid contigs with transformer. Bioinformatics, 39(5), btad283.[Link](https://academic.oup.com/bioinformatics/article/39/5/btad283/7136643)
@@ -16,4 +17,6 @@
 -  **Shang, J.**, & Sun, Y. (2021). Predicting the hosts of prokaryotic viruses using GCN-based semi-supervised learning. BMC biology, Volume 19. [Link](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-021-01180-4)
 -  **Shang, J.**, & Sun, Y. (2021). CHEER: HierarCHical taxonomic classification for viral mEtagEnomic data via deep leaRning. Methods, Volume 189. [Link](https://www.sciencedirect.com/science/article/pii/S1046202319302683)
 -  Chen, J., **Shang, J.**, Wang, J., & Sun, Y. (2019). A binning tool to reconstruct viral haplotypes from assembled contigs. BMC bioinformatics, Volume 20. [Link](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3138-1)
+
+### The following works have been done during my undergraduate study.
 -  Li, S., **Shang, J.**, Duan, Z., & Huang, J. (2018). Fast detection method of quick response code based on run‐length coding. IET Image Processing, Volume 12. [Link](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/iet-ipr.2017.0677)
