@@ -1,7 +1,7 @@
 ## Publication (listed by time)
 ### The following works have been done during my Ph.D. study.
 
-- **Shang, J.**, Peng, C., Liao, H., Tang, X., & Sun, Y. "PhaBOX: A web server for identifying and characterizing phage contigs in metagenomic data." Accepted by Bioinformatics Advance. vbad101. [arXiv link](https://arxiv.org/pdf/2303.15707.pdf)
+- **Shang, J.**, Peng, C., Liao, H., Tang, X., & Sun, Y. "PhaBOX: A web server for identifying and characterizing phage contigs in metagenomic data." Accepted by Bioinformatics Advance. vbad101. [link](https://academic.oup.com/bioinformaticsadvances/article/3/1/vbad101/7235573)
 - **Shang, J.**, Peng, C., Tang, X., & Sun, Y. "PhaVIP: Phage VIrion Protein classification based on chaos game representation and Vision Transformer." ISMB/ECCB 2023 (proceeding paper, 17% acceptance rate)
 - Tang, X., **Shang, J.**, Ji, Y., & Sun, Y. (2023). PLASMe: a tool to identify PLASMid contigs from short-read assemblies using transformer. Nucleic Acids Research, gkad578. [Link]([https://academic.oup.com/bib/article/23/2/bbac011/6523411](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkad578/7222081))
 - **Shang, J.**, Tang, X., & Sun, Y. (2023). PhaTYP: predicting the lifestyle for bacteriophages using BERT, *Briefings in Bioinformatics*, Volume 24. [Link](https://academic.oup.com/bib/article/24/1/bbac487/6842869)
