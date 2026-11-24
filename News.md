@@ -16,7 +16,12 @@ permalink: /News.html
       <time class="record-meta" datetime="{{ update.date }}">{{ update.date | date: '%b %d, %Y' }}</time>
       <div>
         <h2>{{ update.title | escape }}</h2>
-        <div class="news-body">{{ update.body | markdownify }}</div>
+        <p class="news-summary">{{ update.summary | escape }}</p>
+        <div class="news-links">
+          {% for link in update.links %}
+          <a class="text-link" href="{{ link.url | escape }}">{{ link.label | escape }}</a>
+          {% endfor %}
+        </div>
       </div>
     </article>
     {% endfor %}

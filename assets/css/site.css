@@ -353,8 +353,13 @@ h2 + .prose, .prose h2 + p { margin-top: 0.9rem; }
   font-size: clamp(1.6rem, 3vw, 2.2rem);
   line-height: 1.12;
 }
-.news-entry .news-body { max-width: 75ch; }
-.news-entry .news-body p + p { margin-top: 0.65rem; }
+.news-summary { max-width: 75ch; }
+.news-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  margin-top: 0.65rem;
+}
 .news-entry:target {
   border-top-color: var(--accent);
   background: linear-gradient(var(--tint), transparent 10rem);
