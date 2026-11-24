@@ -43,21 +43,33 @@ permalink: /
         <img src="{{ '/assets/research/microbial-genomics.webp' | relative_url }}" alt="" width="768" height="512" loading="lazy" decoding="async">
         <div class="research-card-copy">
           <h3>Microbial genomics</h3>
-          <p>What does sequencing reveal about the microbes and viruses in a community? I develop tools to map their diversity across environments and hosts.</p>
+          <ul>
+            <li>Microbial community profiling in host-associated and environmental metagenomes</li>
+            <li>Gene-centric analysis of microbial functions</li>
+            <li>Viral diversity, classification, and host associations</li>
+          </ul>
         </div>
       </article>
       <article>
         <img src="{{ '/assets/research/sequence-learning.webp' | relative_url }}" alt="A researcher views a diagram of a neural network using an amino acid sequence to predict a protein annotation." width="768" height="512" loading="lazy" decoding="async">
         <div class="research-card-copy">
           <h3>Machine learning for sequences</h3>
-          <p>What can we learn about a protein from its sequence? I build models that learn sequence representations for protein and genome annotation.</p>
+          <ul>
+            <li>Deep learning for biological sequence analysis</li>
+            <li>Protein function prediction and genome annotation</li>
+            <li>Algorithms and tools for large-scale genomic data</li>
+          </ul>
         </div>
       </article>
       <article>
         <img src="{{ '/assets/research/precision-health.webp' | relative_url }}" alt="Concept drawing of a phage medicine vial and a magnified gut scene showing a phage lysing a target bacterium." width="768" height="512" loading="lazy" decoding="async">
         <div class="research-card-copy">
           <h3>AI for precision health</h3>
-          <p>I explore how AI could help design phages to selectively suppress disease-associated gut bacteria while minimizing disruption to the wider microbiome.</p>
+          <ul>
+            <li>Links between the gut microbiome and disease</li>
+            <li>AI-guided phage design to target disease-associated bacteria</li>
+            <li>Assessing effects on the wider gut microbiome</li>
+          </ul>
         </div>
       </article>
     </div>
