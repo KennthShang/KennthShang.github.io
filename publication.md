@@ -1,22 +1,24 @@
-## Publication (listed by time)
-### The following works have been done during my Ph.D. study.
-
-- **Shang, J.**, Peng, C., Liao, H., Tang, X., & Sun, Y. "PhaBOX: A web server for identifying and characterizing phage contigs in metagenomic data." Accepted by Bioinformatics Advance. vbad101. [Link](https://academic.oup.com/bioinformaticsadvances/article/3/1/vbad101/7235573)
-- **Shang, J.**, Peng, C., Tang, X., & Sun, Y. "PhaVIP: Phage VIrion Protein classification based on chaos game representation and Vision Transformer." ISMB/ECCB 2023 (proceeding paper, 17% acceptance rate)
-- Tang, X., **Shang, J.**, Ji, Y., & Sun, Y. (2023). PLASMe: a tool to identify PLASMid contigs from short-read assemblies using transformer. Nucleic Acids Research, gkad578. [Link]([https://academic.oup.com/bib/article/23/2/bbac011/6523411](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkad578/7222081))
-- **Shang, J.**, Tang, X., & Sun, Y. (2023). PhaTYP: predicting the lifestyle for bacteriophages using BERT, *Briefings in Bioinformatics*, Volume 24. [Link](https://academic.oup.com/bib/article/24/1/bbac487/6842869)
-- Ji, Y., **Shang, J.**, Tang, X., & Sun, Y. (2023). HOTSPOT: hierarchical host prediction for assembled plasmid contigs with transformer. Bioinformatics, 39(5), btad283.[Link](https://academic.oup.com/bioinformatics/article/39/5/btad283/7136643)
--  Jiang, J. Z., Yuan, W. G., **Shang, J.**, Shi, Y. H., Yang, L. L., Liu, M., ... & Yuan, L. H. (2023). Virus classification for viral genomic fragments using PhaGCN2. Briefings in Bioinformatics, Volume 24 **(co-first author)**. [Link](https://doi.org/10.1093/bib/bbac505)
-- Zhu Y., **Shang, J.**, Peng, C., & Sun, Y. (2022). Phage family classification under Caudoviricetes: A review of current tools using the latest ICTV classification framework. Frontiers in Microbiology, Volume 13 **(co-first author)**. [Link](https://www.frontiersin.org/articles/10.3389/fmicb.2022.1032186/full)
-- Cai, D., **Shang, J.**, & Sun, Y. (2022). HaploDMF: viral haplotype reconstruction from long reads via deep matrix factorization. Bioinformatics, Volume 38. [Link](https://academic.oup.com/bioinformatics/article/38/24/5360/6780015)
-- Tang, X., **Shang, J.**, & Sun, Y. (2022). RdRp-based sensitive taxonomic classification of RNA viruses for metagenomic data. Briefings in Bioinformatics, Volume 23. [Link](https://academic.oup.com/bib/article/23/2/bbac011/6523411)
--  **Shang, J.,** Tang, X., Guo, R., & Sun, Y. (2022). Accurate identification of bacteriophages from metagenomic data using Transformer. Briefings in Bioinformatics, Volume 23. [Link](https://academic.oup.com/bib/article/23/4/bbac258/6620872)
--  **Shang, J.**, & Sun, Y. (2022). CHERRY: a Computational metHod for accuratE pRediction of virus–pRokarYotic interactions using a graph encoder–decoder model. Briefings in Bioinformatics, Volume 23. [Link](https://academic.oup.com/bib/article/23/5/bbac182/6589865)
-- Du, N., **Shang, J.**, & Sun, Y. (2021). Improving protein domain classification for third-generation sequencing reads using deep learning. BMC genomics, Volume 22 **(co-first author)**. [Link](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-021-07468-7)
-- **Shang, J.**, Jiang jinzhe, & Sun, Y. (2021) "Bacteriophage classification for assembled contigs using Graph Convolutional Network." ISMB/ECCB 2021 (proceeding paper, 18% acceptance rate) [Link](https://academic.oup.com/bioinformatics/article/37/Supplement_1/i25/6319660)
--  **Shang, J.**, & Sun, Y. (2021). Predicting the hosts of prokaryotic viruses using GCN-based semi-supervised learning. BMC biology, Volume 19. [Link](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-021-01180-4)
--  **Shang, J.**, & Sun, Y. (2021). CHEER: HierarCHical taxonomic classification for viral mEtagEnomic data via deep leaRning. Methods, Volume 189. [Link](https://www.sciencedirect.com/science/article/pii/S1046202319302683)
--  Chen, J., **Shang, J.**, Wang, J., & Sun, Y. (2019). A binning tool to reconstruct viral haplotypes from assembled contigs. BMC bioinformatics, Volume 20. [Link](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3138-1)
-
-### The following works have been done during my undergraduate study.
--  Li, S., **Shang, J.**, Duan, Z., & Huang, J. (2018). Fast detection method of quick response code based on run‐length coding. IET Image Processing, Volume 12. [Link](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/iet-ipr.2017.0677)
+---
+layout: default
+title: Publications
+description: Publications by Jiayu Shang in computational biology, bioinformatics, and machine learning.
+nav: publications
+permalink: /publication.html
+---
+<div class="container archive">
+  <header class="page-heading">
+    <h1>Publications</h1>
+    <p>For a full publication list, see <a href="{{ site.scholar }}">Google Scholar</a> or my <a href="{{ site.cv | relative_url }}">CV</a>.</p>
+  </header>
+  {% assign years = site.data.publications | group_by: 'year' %}
+  {% for year in years %}
+  <section class="year-group" aria-labelledby="papers-{{ year.name }}">
+    <h2 id="papers-{{ year.name }}">{{ year.name }}</h2>
+    <ul class="record-list">
+      {% for paper in year.items %}
+        {% include publication.html paper=paper %}
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>

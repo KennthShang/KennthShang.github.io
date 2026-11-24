@@ -1,72 +1,92 @@
-### <font size=1>Welcome to Jiayu's research space </font>
-<div>
-<table border="0">
-  <tr>
-    <td width="60%">
-      <h1>Jiayu SHANG</h1>
-      <p><b>Dept. of Information Engineering</b></p>
-      <p><b>The Chinese University of Hong Kong</b></p>
-      <p><b>jiayushang AT cuhk DOT edu DOT hk</b></p>
-       <p><a href="/publication.html">[Publication]</a><a href="/News.html">[News]</a><a href="https://scholar.google.com/citations?user=pz7piN8AAAAJ">[Google Schoolar]</a></p>
-      <p>
-        <a href="https://github.com/KennthShang">[GitHub]</a><a href="/imgs/SHANG_Jiayu_CV.pdf">[CV]</a>
-      </p>
-    </td>
-    <td width="40%">
-      <img src="imgs/jyshang.jpg" width="150%">
-    </td>  
-  </tr>
-</table>
+---
+layout: default
+title: Jiayu Shang
+nav: home
+permalink: /
+---
+<div class="container">
+  <section class="hero" aria-labelledby="profile-name">
+    <div class="hero-copy">
+      <p class="eyebrow">Computational biology &amp; bioinformatics</p>
+      <h1 id="profile-name">Jiayu Shang</h1>
+      <div class="hero-affiliation">
+        <p class="hero-role">Postdoctoral Fellow</p>
+        <p>Department of Information Engineering<br>The Chinese University of Hong Kong</p>
+      </div>
+      <p class="hero-appointment"><strong>Starting January 2027</strong><br>Assistant Professor, AI Thrust, HKUST (Guangzhou)</p>
+      <ul class="profile-links" aria-label="Contact and academic profiles">
+        <li><a class="button button-primary" href="mailto:{{ site.email }}">Email</a></li>
+        <li><a class="button button-outline" href="{{ site.scholar }}">Google Scholar</a></li>
+        <li><a class="button button-outline" href="{{ site.github_profile }}">GitHub</a></li>
+      </ul>
+    </div>
+    <div class="portrait-frame">
+      <img class="portrait" src="{{ '/assets/portrait.jpg' | relative_url }}" alt="Portrait of Jiayu Shang" width="900" height="900" fetchpriority="high">
+    </div>
+  </section>
+
+  <section class="section about-grid" id="about" aria-labelledby="about-title">
+    <div>
+      <h2 id="about-title">About</h2>
+      <p>I develop machine learning methods and bioinformatics tools to make sense of large-scale biological sequence data. My work spans microbial metagenomics, protein annotation, and high-throughput sequencing analysis.</p>
+      <p>I earned my PhD in Electrical Engineering at City University of Hong Kong under the supervision of <a href="https://scholar.google.com/citations?user=1wloHDIAAAAJ">Yanni Sun</a> and completed my undergraduate studies at Sun Yat-sen University.</p>
+    </div>
+    <div class="academic-background">
+      <h3>Academic background</h3>
+      <ul class="background-list">
+        <li><strong>Postdoctoral Fellow</strong><span>The Chinese University of Hong Kong</span></li>
+        <li><strong>PhD, Electrical Engineering</strong><span>City University of Hong Kong</span></li>
+        <li><strong>BEng</strong><span>Sun Yat-sen University</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="research" aria-labelledby="research-title">
+    <h2 id="research-title">Research interests</h2>
+    <div class="research-grid">
+      <article>
+        <h3>Microbial genomics</h3>
+        <p>Analyzing high-throughput sequencing data to characterize microbial communities and viral diversity.</p>
+      </article>
+      <article>
+        <h3>Machine learning for sequences</h3>
+        <p>Learning efficient representations of biological sequences for protein and genome annotation.</p>
+      </article>
+      <article>
+        <h3>AI for public and precision health</h3>
+        <p>Studying environmental microbiomes and exploring links between the human microbiome and disease.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="publications" aria-labelledby="publications-title">
+    <div class="section-heading">
+      <h2 id="publications-title">Selected publications</h2>
+      <a class="text-link" href="{{ '/publication.html' | relative_url }}">Publication archive</a>
+    </div>
+    <ul class="record-list">
+      {% assign selected_papers = site.data.publications | where: 'selected', true %}
+      {% for paper in selected_papers %}
+        {% include publication.html paper=paper show_year=true %}
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="section" id="news" aria-labelledby="news-title">
+    <div class="section-heading">
+      <h2 id="news-title">News</h2>
+      <a class="text-link" href="{{ '/News.html' | relative_url }}">News archive</a>
+    </div>
+    <ul class="record-list">
+      {% for update in site.data.news limit:3 %}
+      <li class="record">
+        <time class="record-meta" datetime="{{ update.date }}">{{ update.date | date: '%b %d, %Y' }}</time>
+        <div>
+          <h3><a class="record-title" href="{{ '/News.html' | relative_url }}#{{ update.id }}">{{ update.title | escape }}</a></h3>
+          <p>{{ update.summary | escape }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
 </div>
-
-
-
-
----
-
-Jiayu SHANG is a postdoctoral fellow at The Chinese University of Hong Kong. He received his Ph. D. in the Department of Electrical Engineering at the City University of Hong Kong and his B.S. degree at Sun Yat-sen University (Guangdong, China) in  the Department of Computer Science. His research field is bioinformatics and computational biology. In particular, His recent research projects include applying deep learning models in biological sequence analysis, next-generation sequencing data analysis, metagenomics, and protein domain annotation.
-
----
-## EDUCATION
-
-- PostDoc in Information Engineering, The Chinese University of Hong Kong, Hong Kong, China SAR.
-  - Advisor: [Dr. Yanni Sun](https://scholar.google.com/citations?user=1wloHDIAAAAJ).
-
-- Ph.D. in Electrical Engineering, City University of Hong Kong, Hong Kong, China SAR.
-  - Advisor: [Dr. Yanni Sun](https://scholar.google.com/citations?user=1wloHDIAAAAJ).
-
-- B.S. in Computer Science, Sun Yat-sen University, Guangdong, China.
-
-## Research Interests
-
-- Computational biology and Bioinformatics
-- Deep learning-based sequence analysis
-- BIG genomic data mining
-- Algorithm design and tool development
-
-1. Microbial community analysis using high-throughput sequencing data
-   - Composition analysis of metagenomics data sequenced from host-associated or environmental samples
-
-2. Virus diversity analysis using deep sequencing data
-
-   - Viral population characterization using shot-gun deep sequencing data
-   - Virus identification, classification, and host prediction using deep learning models
-   
-4. Algorithm design for mining sequencing data
-
-
-
-
-## News
-
-A new integrated software named PhaBOX for phage sequence analysis has been developed!
-
-<img src="imgs/pipelines.png" width="100%">
-
-To try PhaBOX, please click the link [PhaBOX](https://phage.ee.cityu.edu.hk/)
-
-
-
-## Visit Map
-
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=_BQeut-tto4nVGqL5_oY8uyP1gR9036U8uYK77f-dyc&co=74b1e8&cmn=cc3a8b'></script>

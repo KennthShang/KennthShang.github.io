@@ -1,0 +1,12 @@
+{% assign entry = include.paper %}
+<li class="record{% unless include.show_year %} record-in-year{% endunless %}">
+  {% if include.show_year %}<span class="record-meta">{{ entry.year }}</span>{% endif %}
+  <div>
+    <h3><a class="record-title" href="{{ entry.url | escape }}">{{ entry.title | escape }}</a></h3>
+    <p>{{ entry.authors | escape | replace: 'Shang, J.', '<strong>Shang, J.</strong>' }}</p>
+    <p class="publication-venue">
+      <cite>{{ entry.venue | escape }}</cite>{% if entry.note %} · {{ entry.note | escape }}{% endif %}
+      {% if entry.software %} · <a href="{{ entry.software.url | escape }}">{{ entry.software.name | escape }}</a>{% endif %}
+    </p>
+  </div>
+</li>

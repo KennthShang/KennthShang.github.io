@@ -1,0 +1,88 @@
+- date: "2026-04-23"
+  id: phabox2
+  title: "PhaBOX2 published in Nucleic Acids Research"
+  summary: "The updated web server supports the analysis of viral sequences from metagenomic data."
+  body: |
+    [PhaBOX2](https://doi.org/10.1093/nar/gkag382) was published online in *Nucleic Acids Research* on April 23, 2026. The update extends the PhaBOX web server beyond bacteriophages.
+
+- date: "2023-06-24"
+  id: plasme
+  title: "PLASMe accepted by Nucleic Acids Research"
+  summary: "PLASMe identifies plasmid contigs from short-read assemblies."
+  body: |
+    Plasmids are mobile genetic elements that carry crucial accessory genes. Cataloging plasmids is a fundamental step in elucidating their role in promoting horizontal gene transfer between bacteria. To identify plasmid contigs from short-read assemblies, we developed a tool called PLASMe that utilizes the Transformer. PLASMe leverages the strengths of both alignment and learning-based methods. The alignment component in PLASMe facilitates the easy identification of closely related plasmids, while order-specific Transformer models predict diverged plasmids with accuracy. The tool is available at [PLASMe.](https://github.com/HubertTang/PLASMe) Check out the paper at [PLASMe: a tool to identify PLASMid contigs from short-read assemblies using transformer](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkad578/7222081)
+
+- date: "2023-04-19"
+  id: hotspot
+  title: "HOTSPOT accepted by Bioinformatics"
+  summary: "HOTSPOT studies the host associations of assembled plasmid contigs."
+  body: |
+    In this work, we construct a tool named HOTSPOT, aiming at predicting the host association of plasmids. By incorporating the state-of-the-art language model, Transformer, in each node’s taxon classifier, the top-down tree search achieves an accurate host taxonomy prediction for the input plasmid contigs. We rigorously tested HOTSPOT on multiple datasets and all experiments show that HOTSPOT outperforms other popular methods. The tool is available at [HOTSPOT](https://academic.oup.com/bioinformatics/article/39/5/btad283/7136643) Check out the paper at [HOTSPOT: hierarchical host prediction for assembled plasmid contigs with transformer](https://academic.oup.com/bioinformatics/article/39/5/btad283/7136643)
+
+- date: "2023-01-03"
+  id: phabox
+  title: "PhaBOX web server released"
+  body: |
+    Bacteriophages (phages) play key roles in regulating the composition/function of the microbiome by infecting their host bacteria. Lacking integrated software for phage identification and analysis, novel phages awaiting to be discovered constitute a large portion of “viral dark matter”. In this work, we developed a web server, named PhaBOX, to accurately identify and analyze phage contigs in metagenomic data. To our best knowledge, this is the first web server for comprehensive phage contig analysis in metagenomic data. PhaBOX integrates our previously published tools: PhaMer, PhaTYP, PhaGCN, and CHERRY, for phage identification, lifestyle prediction, taxonomy classification, and host prediction, respectively. To help users conduct downstream analysis, PhaBOX also provides visualization of the essential features for making the predictions, such as the similarity-based relationships between the contigs and other phages, predicted proteins on the contigs, and protein homology. All the predictions and intermediate results are provided for users. We hope that it can help advance the field of phage study in various ecosystems.
+
+    To try PhaBOX, please click the link [PhaBOX](https://phage.ee.cityu.edu.hk/)
+
+- date: "2022-12-22"
+  id: phage-taxonomy-review
+  title: "Review of phage taxonomy classification accepted"
+  body: |
+    This is the first review conducted under the new ICTV classification framework since several large families were removed from ICTV in August 2022. This study provides a comprehensive review of phage classification in different scenarios and a practical guidance for choosing appropriate taxonomic classification pipelines.
+
+    Paper: [Phage family classification under Caudoviricetes](https://www.frontiersin.org/articles/10.3389/fmicb.2022.1032186)
+
+- date: "2022-10-21"
+  id: haplodmf
+  title: "HaploDMF published in Bioinformatics"
+  body: |
+    This work developed a tool “HaploDMF” to reconstruct viral haplotypes from TGS data. Unlike existing tools that reconstruct haplotypes by checking the identity of overlap between reads, HaploDMF utilizes a deep matrix factorization model with an adapted loss function to automatically learn latent features from aligned reads. It is able to achieve highly robust performance on data with different properties while existing tools’ performance can be affected by the overlap size between reads.
+
+    Paper: [HaploDMF: viral haplotype reconstruction from long reads via deep matrix factorization](https://doi.org/10.1093/bioinformatics/btac708)
+
+    Tool: [HaploDMF](https://github.com/dhcai21/HaploDMF)
+
+- date: "2022-10-17"
+  id: phatyp
+  title: "PhaTYP published in Briefings in Bioinformatics"
+  body: |
+    Bacteriophages (or phages), which infect bacteria, have two distinct lifestyles: virulent and temperate. Predicting the lifestyle of phages helps decipher their interactions with their bacterial hosts, aiding phages’ applications in fields such as phage therapy. Because experimental methods for annotating the lifestyle of phages cannot keep pace with the fast accumulation of sequenced phages, computational method for predicting phages’ lifestyles has become an attractive alternative. Despite some promising results, computational lifestyle prediction remains difficult because of the limited known annotations and the sheer amount of sequenced phage contigs assembled from metagenomic data. In particular, most of the existing tools cannot precisely predict phages’ lifestyles for short contigs. In this work, we develop PhaTYP (Phage TYPe prediction tool) to improve the accuracy of lifestyle prediction on short contigs. We design two different training tasks, self-supervised and fine-tuning tasks, to overcome lifestyle prediction difficulties. We rigorously tested and compared PhaTYP with four state-of-the-art methods: DeePhage, PHACTS, PhagePred and BACPHLIP. The experimental results show that PhaTYP outperforms all these methods and achieves more stable performance on short contigs. In addition, we demonstrated the utility of PhaTYP for analyzing the phage lifestyle on human neonates’ gut data. This application shows that PhaTYP is a useful means for studying phages in metagenomic data and helps extend our understanding of microbial communities.
+
+    Paper: [PhaTYP: predicting the lifestyle for bacteriophages using BERT](https://doi.org/10.1093/bib/bbac487)
+
+    Tool: [PhaTYP](https://github.com/KennthShang/PhaTYP)
+
+- date: "2022-06-30"
+  id: phamer
+  title: "PhaMer published in Briefings in Bioinformatics"
+  body: |
+    In this work, we adopt the state-of-the-art language model, Transformer, to conduct contextual embedding for phage contigs. By constructing a protein-cluster vocabulary, we can feed both the protein composition and the proteins’ positions from each contig into the Transformer. The Transformer can learn the protein organization and associations using the self-attention mechanism and predicts the label for test contigs. We rigorously tested our developed tool named PhaMer on multiple datasets with increasing difficulty, including quality RefSeq genomes, short contigs, simulated metagenomic data, mock metagenomic data and the public IMG/VR dataset. All the experimental results show that PhaMer outperforms the state-of-the-art tools. In the real metagenomic data experiment, PhaMer improves the F1-score of phage detection by 27%.
+
+    Paper: [Accurate identification of bacteriophages from metagenomic data using Transformer](https://doi.org/10.1093/bib/bbac258)
+
+    Tool: [PhaMer](https://github.com/KennthShang/PhaMer)
+
+- date: "2022-05-22"
+  id: cherry
+  title: "CHERRY published in Briefings in Bioinformatics"
+  body: |
+    Prokaryotic viruses, which infect bacteria and archaea, are key players in microbial communities. Predicting the hosts of prokaryotic viruses helps decipher the dynamic relationship between microbes. Experimental methods for host prediction cannot keep pace with the fast accumulation of sequenced phages. Thus, there is a need for computational host prediction. Despite some promising results, computational host prediction remains a challenge because of the limited known interactions and the sheer amount of sequenced phages by high-throughput sequencing technologies. The state-of-the-art methods can only achieve 43% accuracy at the species level. In this work, we formulate host prediction as link prediction in a knowledge graph that integrates multiple protein and DNA-based sequence features. Our implementation named CHERRY can be applied to predict hosts for newly discovered viruses and to identify viruses infecting targeted bacteria. We demonstrated the utility of CHERRY for both applications and compared its performance with 11 popular host prediction methods. To our best knowledge, CHERRY has the highest accuracy in identifying virus–prokaryote interactions. It outperforms all the existing methods at the species level with an accuracy increase of 37%. In addition, CHERRY’s performance on short contigs is more stable than other tools.
+
+    Paper: [CHERRY: a Computational metHod for accuratE pRediction of virus–pRokarYotic interactions using a graph encoder–decoder model](https://doi.org/10.1093/bib/bbac182)
+
+    Tool: [CHERRY](https://github.com/KennthShang/CHERRY)
+
+- date: "2022-02-07"
+  id: rdrpbin
+  title: "RdRpBin published in Briefings in Bioinformatics"
+  body: |
+    "RdRp-based sensitive taxonomic classification of RNA viruses for metagenomic data" is published today!
+
+    With advances in library construction protocols and next-generation sequencing technologies, viral metagenomic sequencing has become the major source for novel virus discovery. Conducting taxonomic classification for metagenomic data is an important means to characterize the viral composition in the underlying samples. However, RNA viruses are abundant and highly diverse, jeopardizing the sensitivity of comparison-based classification methods. To improve the sensitivity of read-level taxonomic classification, we developed an RNA-dependent RNA polymerase (RdRp) gene-based read classification tool RdRpBin. It combines alignment-based strategy with machine learning models in order to fully exploit the sequence properties of RdRp. We tested our method and compared its performance with the state-of-the-art tools on the simulated and real sequencing data. RdRpBin competes favorably with all. In particular, when the query RNA viruses share low sequence similarity with the known viruses (⁠∼0.4), our tool can still maintain a higher F-score than the state-of-the-art tools. The experimental results on real data also showed that RdRpBin can classify more RNA viral reads with a relatively low false-positive rate. Thus, RdRpBin can be utilized to classify novel and diverged RNA viruses.
+
+    Paper: [RdRp-based sensitive taxonomic classification of RNA viruses for metagenomic data](https://doi.org/10.1093/bib/bbac011)
+
+    Tool: [RdRpBin](https://github.com/HubertTang/RdRpBin)

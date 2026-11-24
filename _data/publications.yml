@@ -1,0 +1,124 @@
+- year: 2026
+  title: "PhaBOX2: an enhanced web server for discovering and analyzing viral contigs in metagenomic data"
+  authors: "Shang, J., Peng, C., Guan, J., Cai, D., Wang, D., & Sun, Y."
+  venue: Nucleic Acids Research
+  url: https://doi.org/10.1093/nar/gkag382
+  software:
+    name: PhaBOX web server
+    url: https://phage.ee.cityu.edu.hk/
+  selected: true
+
+- year: 2024
+  title: Accurate and efficient protein embedding using multi-teacher distillation learning
+  authors: "Shang, J., Peng, C., Ji, Y., Guan, J., Cai, D., Tang, X., & Sun, Y."
+  venue: Bioinformatics
+  url: https://doi.org/10.1093/bioinformatics/btae567
+  selected: true
+
+- year: 2023
+  title: "PhaBOX: a web server for identifying and characterizing phage contigs in metagenomic data"
+  authors: "Shang, J., Peng, C., Liao, H., Tang, X., & Sun, Y."
+  venue: Bioinformatics Advances
+  url: https://academic.oup.com/bioinformaticsadvances/article/3/1/vbad101/7235573
+
+- year: 2023
+  title: "PhaVIP: Phage VIrion Protein classification based on chaos game representation and Vision Transformer"
+  authors: "Shang, J., Peng, C., Tang, X., & Sun, Y."
+  venue: Bioinformatics
+  note: ISMB/ECCB 2023
+  url: https://doi.org/10.1093/bioinformatics/btad229
+  selected: true
+
+- year: 2023
+  title: "PLASMe: a tool to identify PLASMid contigs from short-read assemblies using transformer"
+  authors: "Tang, X., Shang, J., Ji, Y., & Sun, Y."
+  venue: Nucleic Acids Research
+  url: https://doi.org/10.1093/nar/gkad578
+
+- year: 2023
+  title: "PhaTYP: predicting the lifestyle for bacteriophages using BERT"
+  authors: "Shang, J., Tang, X., & Sun, Y."
+  venue: Briefings in Bioinformatics
+  url: https://academic.oup.com/bib/article/24/1/bbac487/6842869
+
+- year: 2023
+  title: "HOTSPOT: hierarchical host prediction for assembled plasmid contigs with transformer"
+  authors: "Ji, Y., Shang, J., Tang, X., & Sun, Y."
+  venue: Bioinformatics
+  url: https://academic.oup.com/bioinformatics/article/39/5/btad283/7136643
+
+- year: 2023
+  title: Virus classification for viral genomic fragments using PhaGCN2
+  authors: "Jiang, J. Z., Yuan, W. G., Shang, J., Shi, Y. H., Yang, L. L., Liu, M., … & Yuan, L. H."
+  venue: Briefings in Bioinformatics
+  note: Co-first author
+  url: https://doi.org/10.1093/bib/bbac505
+
+- year: 2022
+  title: "Phage family classification under Caudoviricetes: a review of current tools using the latest ICTV classification framework"
+  authors: "Zhu, Y., Shang, J., Peng, C., & Sun, Y."
+  venue: Frontiers in Microbiology
+  note: Co-first author
+  url: https://www.frontiersin.org/articles/10.3389/fmicb.2022.1032186/full
+
+- year: 2022
+  title: "HaploDMF: viral haplotype reconstruction from long reads via deep matrix factorization"
+  authors: "Cai, D., Shang, J., & Sun, Y."
+  venue: Bioinformatics
+  url: https://academic.oup.com/bioinformatics/article/38/24/5360/6780015
+
+- year: 2022
+  title: RdRp-based sensitive taxonomic classification of RNA viruses for metagenomic data
+  authors: "Tang, X., Shang, J., & Sun, Y."
+  venue: Briefings in Bioinformatics
+  url: https://academic.oup.com/bib/article/23/2/bbac011/6523411
+
+- year: 2022
+  title: Accurate identification of bacteriophages from metagenomic data using Transformer
+  authors: "Shang, J., Tang, X., Guo, R., & Sun, Y."
+  venue: Briefings in Bioinformatics
+  url: https://academic.oup.com/bib/article/23/4/bbac258/6620872
+
+- year: 2022
+  title: "CHERRY: a Computational metHod for accuratE pRediction of virus–pRokarYotic interactions using a graph encoder–decoder model"
+  authors: "Shang, J., & Sun, Y."
+  venue: Briefings in Bioinformatics
+  url: https://academic.oup.com/bib/article/23/5/bbac182/6589865
+
+- year: 2021
+  title: Improving protein domain classification for third-generation sequencing reads using deep learning
+  authors: "Du, N., Shang, J., & Sun, Y."
+  venue: BMC Genomics
+  note: Co-first author
+  url: https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-021-07468-7
+
+- year: 2021
+  title: Bacteriophage classification for assembled contigs using Graph Convolutional Network
+  authors: "Shang, J., Jiang, J., & Sun, Y."
+  venue: Bioinformatics
+  note: ISMB/ECCB 2021
+  url: https://academic.oup.com/bioinformatics/article/37/Supplement_1/i25/6319660
+
+- year: 2021
+  title: Predicting the hosts of prokaryotic viruses using GCN-based semi-supervised learning
+  authors: "Shang, J., & Sun, Y."
+  venue: BMC Biology
+  url: https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-021-01180-4
+
+- year: 2021
+  title: "CHEER: HierarCHical taxonomic classification for viral mEtagEnomic data via deep leaRning"
+  authors: "Shang, J., & Sun, Y."
+  venue: Methods
+  url: https://www.sciencedirect.com/science/article/pii/S1046202319302683
+
+- year: 2019
+  title: A binning tool to reconstruct viral haplotypes from assembled contigs
+  authors: "Chen, J., Shang, J., Wang, J., & Sun, Y."
+  venue: BMC Bioinformatics
+  url: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3138-1
+
+- year: 2018
+  title: Fast detection method of quick response code based on run-length coding
+  authors: "Li, S., Shang, J., Duan, Z., & Huang, J."
+  venue: IET Image Processing
+  url: https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/iet-ipr.2017.0677
