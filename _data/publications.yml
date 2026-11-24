@@ -1,4 +1,34 @@
 - year: 2026
+  title: "SeekRBP: leveraging sequence–structure integration with reinforcement learning for receptor-binding protein identification"
+  authors: "Luo, X., Ou-Yang, L., Shen, Y., Guan, J., Cai, D., Zhang, J., Xing, G., Sun, Y., & Shang, J."
+  venue: Bioinformatics
+  note: Co-corresponding author
+  url: https://doi.org/10.1093/bioinformatics/btag813
+  selected: true
+
+- year: 2026
+  title: "ViralQC: a tool for assessing completeness and contamination of predicted viral contigs"
+  authors: "Peng, C., Shang, J., Guan, J., & Sun, Y."
+  venue: Bioinformatics
+  note: ECCB 2026
+  url: https://doi.org/10.1093/bioinformatics/btag463
+
+- year: 2026
+  title: "TPMM: three-component posterior mixture model enables robust inverton detection in low-depth metagenomes and suggests potential viral invertons"
+  authors: "Lu, Y., Guan, J., Shen, Y., Shang, J., & Sun, Y."
+  venue: Bioinformatics
+  note: ECCB 2026
+  url: https://doi.org/10.1093/bioinformatics/btag437
+
+- year: 2026
+  title: "PhageMind: generalized strain-level phage host range prediction via meta-learning"
+  authors: "Shen, Y., Shi, K., Yu, C., Zhang, R., Sun, Y., & Shang, J."
+  venue: Bioinformatics
+  note: ISMB 2026 · Co-corresponding author
+  url: https://doi.org/10.1093/bioinformatics/btag262
+  selected: true
+
+- year: 2026
   title: "PhaBOX2: an enhanced web server for discovering and analyzing viral contigs in metagenomic data"
   authors: "Shang, J., Peng, C., Guan, J., Cai, D., Wang, D., & Sun, Y."
   venue: Nucleic Acids Research
@@ -8,12 +38,113 @@
     url: https://phage.ee.cityu.edu.hk/
   selected: true
 
+- year: 2026
+  title: Fast and accurate identification of emerging viral reassortment from genome sequences
+  authors: "Cai, D., Shang, J., Peng, C., He, L., Shi, M., & Sun, Y."
+  venue: Nucleic Acids Research
+  url: https://doi.org/10.1093/nar/gkag255
+
+- year: 2026
+  title: Unraveling the activity of phage-carrying antibiotic resistance genes in constructed wetlands
+  authors: "Zhao, Q., Wang, D., Lin, H., Zhou, T., Zhang, J., Shang, J., Cai, D., Sun, Y., Hu, Z., & Zhang, J."
+  venue: Frontiers in Cellular and Infection Microbiology
+  url: https://doi.org/10.3389/fcimb.2026.1764958
+
+- year: 2026
+  title: "PlasRAG: comprehensive plasmid characterization and retrieval through sequence-text alignment"
+  authors: "Ji, Y., Guan, J., Liao, H., Shang, J., & Sun, Y."
+  venue: Genome Biology
+  url: https://doi.org/10.1186/s13059-026-03966-7
+
+- year: 2025
+  title: Reinforcement learning-guided sample selection for improved identification of phage receptor binding proteins
+  authors: "Luo, X., Ou-Yang, L., Shen, Y., Sun, Y., & Shang, J."
+  venue: Briefings in Bioinformatics
+  note: Conference abstract
+  url: https://doi.org/10.1093/bib/bbaf631.045
+
+- year: 2025
+  title: Ecological drivers and functional roles of phage communities in the Yangtze River’s freshwater ecosystems
+  authors: "Peng, L., Yang, F., Zhang, J., Shang, J., Xu, W., Sheng, S., Li, Q., Zou, Y., & Yue, Z."
+  venue: Journal of Hazardous Materials
+  url: https://doi.org/10.1016/j.jhazmat.2025.140564
+
+- year: 2025
+  title: "From genomic signals to prediction tools: a critical feature analysis and rigorous benchmark for phage–host prediction"
+  authors: "Shang, J., Peng, C., Guan, J., Cai, D., Wang, D., & Sun, Y."
+  venue: Briefings in Bioinformatics
+  url: https://doi.org/10.1093/bib/bbaf626
+  selected: true
+
+- year: 2025
+  title: Dissecting the gut microbial communities and resistomes of wild rats from different ecological areas in Hong Kong
+  authors: "Wen, C., Guan, J., Uea-Anuwong, T., Shang, J., Peng, C., Tang, X., Magouras, I., Sun, Y., & Li, F."
+  venue: Environmental Research
+  url: https://doi.org/10.1016/j.envres.2025.122108
+
+- year: 2025
+  title: "GiantHunter: accurate detection of giant virus in metagenomic data using reinforcement-learning and Monte Carlo tree search"
+  authors: "Qu, F., Peng, C., Guan, J., Wang, D., Sun, Y., & Shang, J."
+  venue: Bioinformatics
+  note: ISMB/ECCB 2025 · Co-corresponding author
+  url: https://doi.org/10.1093/bioinformatics/btaf239
+  selected: true
+
+- year: 2025
+  title: "GOPhage: protein function annotation for bacteriophages by integrating the genomic context"
+  authors: "Guan, J., Ji, Y., Peng, C., Zou, W., Tang, X., Shang, J., & Sun, Y."
+  venue: Briefings in Bioinformatics
+  url: https://doi.org/10.1093/bib/bbaf014
+
+- year: 2024
+  title: "PlasGO: enhancing GO-based function prediction for plasmid-encoded proteins based on genetic structure"
+  authors: "Ji, Y., Shang, J., Guan, J., Zou, W., Liao, H., Tang, X., & Sun, Y."
+  venue: GigaScience
+  url: https://doi.org/10.1093/gigascience/giae104
+
+- year: 2024
+  title: "ViraLM: empowering virus discovery through the genome foundation model"
+  authors: "Peng, C., Shang, J., Guan, J., Wang, D., & Sun, Y."
+  venue: Bioinformatics
+  url: https://doi.org/10.1093/bioinformatics/btae704
+
+- year: 2024
+  title: "Hot spots of resistance: Transit centers as breeding grounds for airborne ARG-carrying bacteriophages"
+  authors: "Zhang, J., Shang, J., Liu, B., Zhu, D., Li, Q., Yin, L., … & Zou, Y."
+  venue: Journal of Hazardous Materials
+  url: https://doi.org/10.1016/j.jhazmat.2024.136165
+
 - year: 2024
   title: Accurate and efficient protein embedding using multi-teacher distillation learning
   authors: "Shang, J., Peng, C., Ji, Y., Guan, J., Cai, D., Tang, X., & Sun, Y."
   venue: Bioinformatics
   url: https://doi.org/10.1093/bioinformatics/btae567
   selected: true
+
+- year: 2024
+  title: "SegVir: Reconstruction of Complete Segmented RNA Viral Genomes from Metatranscriptomes"
+  authors: "Tang, X., Shang, J., Chen, G., Chan, K. H. K., Shi, M., & Sun, Y."
+  venue: Molecular Biology and Evolution
+  url: https://doi.org/10.1093/molbev/msae171
+
+- year: 2024
+  title: Identifying ARG-carrying bacteriophages in a lake replenished by reclaimed water using deep learning techniques
+  authors: "Wang, D., Shang, J., Lin, H., Liang, J., Wang, C., Sun, Y., Bai, Y., & Qu, J."
+  venue: Water Research
+  note: Co-first author
+  url: https://doi.org/10.1016/j.watres.2023.120859
+
+- year: 2023
+  title: "GDmicro: classifying host disease status with GCN and deep adaptation network based on the human gut microbiome data"
+  authors: "Liao, H., Shang, J., & Sun, Y."
+  venue: Bioinformatics
+  url: https://doi.org/10.1093/bioinformatics/btad747
+
+- year: 2023
+  title: "PhaGenus: genus-level classification of bacteriophages using a Transformer model"
+  authors: "Guan, J., Peng, C., Shang, J., Tang, X., & Sun, Y."
+  venue: Briefings in Bioinformatics
+  url: https://doi.org/10.1093/bib/bbad408
 
 - year: 2023
   title: "PhaBOX: a web server for identifying and characterizing phage contigs in metagenomic data"
@@ -27,7 +158,6 @@
   venue: Bioinformatics
   note: ISMB/ECCB 2023
   url: https://doi.org/10.1093/bioinformatics/btad229
-  selected: true
 
 - year: 2023
   title: "PLASMe: a tool to identify PLASMid contigs from short-read assemblies using transformer"

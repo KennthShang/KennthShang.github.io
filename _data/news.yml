@@ -1,9 +1,58 @@
+- date: "2026-11-10"
+  id: seekrbp
+  title: "SeekRBP published in Bioinformatics"
+  summary: "Our study on identifying receptor-binding proteins is now available in Bioinformatics."
+  body: |
+    [SeekRBP](https://doi.org/10.1093/bioinformatics/btag813) was published online in *Bioinformatics* on November 10, 2026. I served as a co-corresponding author.
+
+- date: "2026-08-01"
+  id: eccb-2026
+  title: "ViralQC and TPMM appear in the ECCB 2026 proceedings"
+  summary: "Two co-authored papers appear in the August 2026 supplement of Bioinformatics."
+  body: |
+    The ECCB 2026 proceedings in *Bioinformatics* include [ViralQC](https://doi.org/10.1093/bioinformatics/btag463) and [TPMM](https://doi.org/10.1093/bioinformatics/btag437).
+
+- date: "2026-07-01"
+  id: phagemind
+  title: "PhageMind published in the ISMB 2026 proceedings"
+  summary: "The study appears in the July 2026 supplement of Bioinformatics."
+  body: |
+    [PhageMind](https://doi.org/10.1093/bioinformatics/btag262) appears in the ISMB 2026 proceedings in *Bioinformatics*. I served as a co-corresponding author.
+
 - date: "2026-04-23"
   id: phabox2
   title: "PhaBOX2 published in Nucleic Acids Research"
   summary: "The updated web server supports the analysis of viral sequences from metagenomic data."
   body: |
     [PhaBOX2](https://doi.org/10.1093/nar/gkag382) was published online in *Nucleic Acids Research* on April 23, 2026. The update extends the PhaBOX web server beyond bacteriophages.
+
+- date: "2026-02-07"
+  id: plasrag
+  title: "PlasRAG published in Genome Biology"
+  summary: "Our study on plasmid characterization and retrieval is now available in Genome Biology."
+  body: |
+    [PlasRAG](https://doi.org/10.1186/s13059-026-03966-7) was published in *Genome Biology* on February 7, 2026.
+
+- date: "2025-11-24"
+  id: phage-host-benchmark
+  title: "Phage–host prediction benchmark published in Briefings in Bioinformatics"
+  summary: "We reviewed and benchmarked 27 tools for phage–host prediction."
+  body: |
+    [From genomic signals to prediction tools](https://doi.org/10.1093/bib/bbaf626) was published online in *Briefings in Bioinformatics* on November 24, 2025.
+
+- date: "2025-07-20"
+  id: gianthunter
+  title: "GiantHunter in the ISMB/ECCB 2025 proceedings"
+  summary: "The conference opened on July 20, with GiantHunter appearing in the Bioinformatics proceedings."
+  body: |
+    [GiantHunter](https://doi.org/10.1093/bioinformatics/btaf239) appears in the proceedings of ISMB/ECCB 2025, held July 20–24. I served as a co-corresponding author.
+
+- date: "2024-09-24"
+  id: mtdp
+  title: "Multi-teacher protein embedding paper published in Bioinformatics"
+  summary: "Our study on multi-teacher distillation for protein embeddings is now available."
+  body: |
+    [Accurate and efficient protein embedding using multi-teacher distillation learning](https://doi.org/10.1093/bioinformatics/btae567) was published online in *Bioinformatics* on September 24, 2024.
 
 - date: "2023-06-24"
   id: plasme
