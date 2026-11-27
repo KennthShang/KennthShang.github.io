@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Jiayu Shang">
+  <meta name="description" content="PhD recruitment in AI for computational biology and bioinformatics at HKUST (Guangzhou).">
+  <title>AI for computational biology &amp; bioinformatics | PhD Recruitment</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --navy: #003366;
+      --ink: #172738;
+      --muted: #455870;
+      --blue: #22558c;
+      --line: #d9e4f0;
+      --tint: #eaf2fb;
+      --heading: Georgia, serif;
+      --body: "Helvetica Neue", Arial, sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; background: #edf2f7; color: var(--ink); font: 9.5pt/1.32 var(--body); }
+    h1, h2, h3, p, ul, dl, dd { margin: 0; }
+    h1, h2 { font-family: var(--heading); font-weight: 400; line-height: 1.06; color: var(--navy); }
+    h1 { font-size: 27.5pt; letter-spacing: -.045em; text-wrap: balance; }
+    h2 { font-size: 20pt; letter-spacing: -.035em; }
+    h3 { color: var(--navy); font-size: 11pt; line-height: 1.2; }
+    a { color: var(--blue); text-underline-offset: .18em; }
+    .prose { text-align: justify; hyphens: auto; }
+    .bullet-list { padding-left: 4mm; }
+    .bullet-list li + li { margin-top: 0.8mm; }
+    .bullet-list li::marker { color: var(--blue); }
+
+    .sheet {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 2.5mm;
+      width: min(100%, 210mm);
+      min-height: 297mm;
+      margin-inline: auto;
+      padding: 9mm 13mm;
+      background: #fff;
+    }
+
+    .masthead { border-top: 3pt solid var(--navy); padding-top: 3.5mm; }
+    .masthead-line { display: flex; justify-content: space-between; gap: 3mm; margin-bottom: 3.5mm; }
+    .label { color: var(--blue); font-size: 9pt; font-weight: 700; letter-spacing: .10em; text-transform: uppercase; }
+    .tagline { margin-top: 2mm; color: var(--muted); font-size: 13pt; }
+
+    .intro {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 28mm;
+      align-items: center;
+      gap: 8mm;
+      padding-top: 3.5mm;
+      border-top: 1px solid var(--line);
+    }
+    .intro h2 { font-size: 20pt; }
+    .appointment { margin-top: 1mm; color: var(--blue); font-size: 9.8pt; font-weight: 600; }
+    .mission { margin-top: 1.6mm; }
+    .portrait { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+
+    .topics h2, .highlights h2 { margin-bottom: 2.7mm; }
+    .topic-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4.5mm; }
+    .topic { padding-top: 2.3mm; border-top: 1.5pt solid #8eaac8; }
+    .topic h3 { font-size: 10.5pt; letter-spacing: -.015em; }
+    .topic .bullet-list { margin-top: 1.4mm; }
+
+    .highlights { padding: 3.5mm 6mm; background: var(--tint); border-top: 2pt solid var(--blue); }
+    .project-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 1mm 4mm; }
+    .project-heading h3 { font-size: 22pt; letter-spacing: -.035em; }
+    .project-heading a { font-size: 9.2pt; font-weight: 600; }
+    .highlights .prose { margin-top: 1.6mm; }
+    .metrics-heading {
+      margin-top: 3mm;
+      color: var(--muted);
+      font-size: 8.6pt;
+      font-weight: 700;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      margin-top: 1.4mm;
+      padding-block: 2.3mm;
+      border-block: 1px solid #b9cfe6;
+    }
+    .metrics > div { display: flex; flex-direction: column; padding-inline: 3.2mm; }
+    .metrics > div:first-child { padding-left: 0; }
+    .metrics > div + div { border-left: 1px solid #b9cfe6; }
+    .metrics dt { color: var(--muted); font-size: 9.2pt; }
+    .metrics dd {
+      order: -1;
+      color: var(--navy);
+      font-size: 21pt;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      line-height: 1.1;
+    }
+    .related-reading { margin-top: 2mm; color: var(--muted); font-size: 8.5pt; }
+    .related-reading .references { display: block; margin-top: 0.8mm; }
+    .related-reading a { white-space: nowrap; }
+
+    .recruitment-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .recruitment-grid > section + section { padding-left: 5mm; border-left: 1px solid var(--line); }
+    .recruitment-grid > section:first-child { padding-right: 5mm; }
+    .recruitment-grid h2 { margin-bottom: 2mm; font-size: 19pt; }
+    .recruitment-grid p + p { margin-top: 1.5mm; }
+
+    .contact {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 24mm;
+      align-items: center;
+      gap: 5mm;
+      padding: 3.6mm 5.5mm;
+      background: var(--navy);
+      color: #fff;
+    }
+    .contact h2 { color: #fff; font-size: 21pt; }
+    .contact p { margin-top: 1.5mm; }
+    .contact-links { display: flex; flex-wrap: wrap; gap: 1.2mm 4mm; font-size: 9.1pt; }
+    .contact a { color: #fff; }
+    .homepage-qr { display: block; text-align: center; font-size: 8pt; }
+    .homepage-qr svg { display: block; width: 22mm; height: 22mm; margin: 0 auto 1mm; background: #fff; }
+
+    @media screen and (max-width: 620px) {
+      .sheet { min-height: 0; padding-inline: 6mm; }
+      h1 { font-size: clamp(22pt, 6vw, 27.5pt); }
+      .intro { grid-template-columns: minmax(0, 1fr) 24mm; gap: 4mm; }
+      .intro .prose { text-align: start; }
+      .topic-grid, .recruitment-grid { grid-template-columns: 1fr; gap: 4mm; }
+      .recruitment-grid > section:first-child { padding-right: 0; }
+      .recruitment-grid > section + section { padding-left: 0; border-left: 0; }
+      .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 2.5mm; }
+      .metrics > div:nth-child(odd) { padding-left: 0; border-left: 0; }
+    }
+
+    @page { size: A4 portrait; margin: 0; }
+    @media print {
+      body { background: #fff; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      .sheet { width: 100%; min-height: 296.7mm; margin: 0; }
+      header, section, footer { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main class="sheet">
+    <header class="masthead">
+      <div class="masthead-line label">
+        <span>HKUST (Guangzhou)</span>
+        <span>PhD Recruitment</span>
+      </div>
+      <h1>AI for computational biology &amp; bioinformatics</h1>
+      <p class="tagline">Designing new AI algorithms to advance discovery in the life sciences</p>
+    </header>
+
+    <section class="intro" aria-labelledby="pi-name">
+      <div>
+        <h2 id="pi-name">Jiayu Shang, PhD</h2>
+        <p class="appointment">Assistant Professor<br>Artificial Intelligence Thrust, Information Hub</p>
+        <p class="mission prose">We develop novel AI and computational methods to address fundamental biological questions. By integrating machine learning, biological knowledge, and experimental validation, our lab aims to advance biological discovery and translate computational innovations into real-world applications.</p>
+      </div>
+      <img class="portrait" src="../assets/portrait.jpg" alt="Portrait of Jiayu Shang" width="900" height="900">
+    </section>
+
+    <section class="topics" aria-labelledby="topics-title">
+      <h2 id="topics-title">What we explore</h2>
+      <div class="topic-grid">
+        <article class="topic">
+          <h3>Microbial Genomics</h3>
+          <ul class="bullet-list">
+            <li>Microbial community profiling</li>
+            <li>Microbial gene functions</li>
+            <li>Viral diversity and host links</li>
+          </ul>
+        </article>
+        <article class="topic">
+          <h3>Machine Learning for Sequences</h3>
+          <ul class="bullet-list">
+            <li>Deep learning for biological sequence analysis</li>
+            <li>Tools for large-scale genomic datasets</li>
+          </ul>
+        </article>
+        <article class="topic">
+          <h3>AI for Precision Health</h3>
+          <ul class="bullet-list">
+            <li>Gut microbiome links to disease</li>
+            <li>AI-guided phage design to target disease-associated bacteria</li>
+            <li>Effects on the wider gut microbiome</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="highlights" aria-labelledby="highlights-title">
+      <h2 id="highlights-title">Selected research highlights</h2>
+      <article>
+        <div class="project-heading">
+          <h3>PhaBOX2</h3>
+          <a href="https://doi.org/10.1093/nar/gkag382">Nucleic Acids Research · 2026</a>
+        </div>
+        <p class="prose">PhaBOX2 brings virus discovery, classification, and functional annotation into one no-code platform. It helps researchers study how viruses and microbes interact and ask what those interactions might mean for human health.</p>
+        <p class="metrics-heading" id="metrics-title">PhaBOX platform metrics · May 2026</p>
+        <dl class="metrics" aria-labelledby="metrics-title">
+          <div><dt>Page views</dt><dd>770,000+</dd></div>
+          <div><dt>Submissions</dt><dd>31,000+</dd></div>
+          <div><dt>Research labs worldwide</dt><dd>1,300+</dd></div>
+          <div><dt>Citations</dt><dd>1,200+</dd></div>
+        </dl>
+        <p class="related-reading prose">Researchers used PhaBOX tools to study phage coexistence, freshwater viral diversity, and Arctic viromes.
+          <span class="references"><a href="https://www.science.org/doi/10.1126/science.adk1183">Science</a> · <a href="https://www.nature.com/articles/s41564-023-01598-2">Nature Microbiology</a> · <a href="https://doi.org/10.1186/s40168-024-01902-0">Microbiome</a> · <a href="https://www.nature.com/articles/s41575-025-01134-z">Nature Reviews Gastroenterology &amp; Hepatology</a></span>
+        </p>
+      </article>
+    </section>
+
+    <div class="recruitment-grid">
+      <section aria-labelledby="training-title">
+        <h2 id="training-title">Why join us?</h2>
+        <ul class="bullet-list">
+          <li>Close mentorship and personalized guidance</li>
+          <li>Freedom to shape your own research direction</li>
+          <li>Interdisciplinary training in AI and biology</li>
+          <li>Opportunities for original, high-impact research</li>
+          <li>A collaborative, intellectually curious lab</li>
+        </ul>
+      </section>
+      <section aria-labelledby="applicants-title">
+        <h2 id="applicants-title">Who we are looking for</h2>
+        <p class="prose">Students in computer science, AI, mathematics, bioinformatics, computational biology, or related fields. We value curiosity, analytical thinking, and initiative.</p>
+        <p><strong>Applicants new to biology are welcome.</strong></p>
+      </section>
+    </div>
+
+    <footer class="contact">
+      <div>
+        <h2>Get in touch</h2>
+        <p class="prose">Email your CV, academic transcripts, and a brief statement explaining which research direction interests you and why.</p>
+        <p class="contact-links">
+          <a href="mailto:jiayushang@hkust-gz.edu.cn">jiayushang@hkust-gz.edu.cn</a>
+          <a href="https://kennthshang.github.io/">Academic homepage</a>
+          <a href="https://fytgs.hkust-gz.edu.cn/admissions/apply-now">Official application</a>
+        </p>
+      </div>
+      <a class="homepage-qr" href="https://kennthshang.github.io/">
+        <!-- Homepage QR code generated from the URL above. -->
+        <svg viewBox="0 0 37 37" aria-hidden="true" shape-rendering="crispEdges">
+          <path fill="#003366" d="
+            M4 4h7v1h-7z M12 4h2v1h-2z M15 4h5v1h-5z M23 4h2v1h-2z M26 4h7v1h-7z
+            M4 5h1v1h-1z M10 5h1v1h-1z M12 5h4v1h-4z M17 5h1v1h-1z M20 5h3v1h-3z M26 5h1v1h-1z M32 5h1v1h-1z
+            M4 6h1v1h-1z M6 6h3v1h-3z M10 6h1v1h-1z M13 6h2v1h-2z M20 6h1v1h-1z M23 6h1v1h-1z M26 6h1v1h-1z M28 6h3v1h-3z M32 6h1v1h-1z
+            M4 7h1v1h-1z M6 7h3v1h-3z M10 7h1v1h-1z M12 7h3v1h-3z M16 7h1v1h-1z M18 7h2v1h-2z M21 7h1v1h-1z M23 7h1v1h-1z M26 7h1v1h-1z M28 7h3v1h-3z M32 7h1v1h-1z
+            M4 8h1v1h-1z M6 8h3v1h-3z M10 8h1v1h-1z M14 8h1v1h-1z M16 8h1v1h-1z M18 8h1v1h-1z M20 8h1v1h-1z M23 8h1v1h-1z M26 8h1v1h-1z M28 8h3v1h-3z M32 8h1v1h-1z
+            M4 9h1v1h-1z M10 9h1v1h-1z M13 9h5v1h-5z M19 9h2v1h-2z M23 9h2v1h-2z M26 9h1v1h-1z M32 9h1v1h-1z
+            M4 10h7v1h-7z M12 10h1v1h-1z M14 10h1v1h-1z M16 10h1v1h-1z M18 10h1v1h-1z M20 10h1v1h-1z M22 10h1v1h-1z M24 10h1v1h-1z M26 10h7v1h-7z
+            M12 11h3v1h-3z M19 11h3v1h-3z M23 11h1v1h-1z
+            M4 12h1v1h-1z M6 12h2v1h-2z M9 12h3v1h-3z M14 12h1v1h-1z M17 12h1v1h-1z M19 12h1v1h-1z M21 12h3v1h-3z M26 12h1v1h-1z M29 12h1v1h-1z M31 12h2v1h-2z
+            M4 13h1v1h-1z M6 13h1v1h-1z M8 13h1v1h-1z M12 13h1v1h-1z M14 13h6v1h-6z M23 13h2v1h-2z M26 13h3v1h-3z M32 13h1v1h-1z
+            M4 14h5v1h-5z M10 14h2v1h-2z M13 14h2v1h-2z M16 14h2v1h-2z M20 14h3v1h-3z M24 14h2v1h-2z M27 14h2v1h-2z M30 14h2v1h-2z
+            M6 15h3v1h-3z M11 15h1v1h-1z M13 15h1v1h-1z M15 15h2v1h-2z M20 15h1v1h-1z M22 15h1v1h-1z M24 15h1v1h-1z M26 15h3v1h-3z M32 15h1v1h-1z
+            M6 16h3v1h-3z M10 16h1v1h-1z M15 16h2v1h-2z M18 16h2v1h-2z M21 16h1v1h-1z M23 16h1v1h-1z M29 16h2v1h-2z
+            M4 17h2v1h-2z M9 17h1v1h-1z M13 17h2v1h-2z M18 17h1v1h-1z M20 17h2v1h-2z M23 17h2v1h-2z M26 17h1v1h-1z M30 17h3v1h-3z
+            M4 18h2v1h-2z M7 18h1v1h-1z M9 18h3v1h-3z M14 18h1v1h-1z M17 18h1v1h-1z M19 18h3v1h-3z M23 18h2v1h-2z M28 18h1v1h-1z M30 18h3v1h-3z
+            M4 19h1v1h-1z M7 19h1v1h-1z M9 19h1v1h-1z M13 19h1v1h-1z M18 19h1v1h-1z M20 19h1v1h-1z M22 19h4v1h-4z M27 19h1v1h-1z M31 19h1v1h-1z
+            M4 20h1v1h-1z M6 20h1v1h-1z M8 20h8v1h-8z M18 20h3v1h-3z M24 20h2v1h-2z M27 20h3v1h-3z M31 20h1v1h-1z
+            M5 21h3v1h-3z M12 21h3v1h-3z M16 21h1v1h-1z M18 21h1v1h-1z M20 21h2v1h-2z M24 21h2v1h-2z M27 21h1v1h-1z M29 21h3v1h-3z
+            M4 22h1v1h-1z M8 22h1v1h-1z M10 22h1v1h-1z M12 22h10v1h-10z M25 22h1v1h-1z M27 22h2v1h-2z M30 22h1v1h-1z
+            M6 23h1v1h-1z M9 23h1v1h-1z M11 23h4v1h-4z M17 23h2v1h-2z M21 23h1v1h-1z M23 23h1v1h-1z M25 23h2v1h-2z M30 23h1v1h-1z
+            M5 24h1v1h-1z M7 24h2v1h-2z M10 24h1v1h-1z M15 24h4v1h-4z M20 24h3v1h-3z M24 24h7v1h-7z
+            M12 25h5v1h-5z M19 25h4v1h-4z M24 25h1v1h-1z M28 25h5v1h-5z
+            M4 26h7v1h-7z M12 26h1v1h-1z M14 26h1v1h-1z M16 26h1v1h-1z M18 26h2v1h-2z M21 26h1v1h-1z M23 26h2v1h-2z M26 26h1v1h-1z M28 26h2v1h-2z M31 26h1v1h-1z
+            M4 27h1v1h-1z M10 27h1v1h-1z M12 27h1v1h-1z M15 27h1v1h-1z M17 27h3v1h-3z M22 27h1v1h-1z M24 27h1v1h-1z M28 27h2v1h-2z
+            M4 28h1v1h-1z M6 28h3v1h-3z M10 28h1v1h-1z M15 28h2v1h-2z M21 28h1v1h-1z M24 28h5v1h-5z M30 28h1v1h-1z M32 28h1v1h-1z
+            M4 29h1v1h-1z M6 29h3v1h-3z M10 29h1v1h-1z M12 29h5v1h-5z M23 29h3v1h-3z M27 29h3v1h-3z M31 29h1v1h-1z
+            M4 30h1v1h-1z M6 30h3v1h-3z M10 30h1v1h-1z M12 30h2v1h-2z M16 30h1v1h-1z M18 30h1v1h-1z M21 30h3v1h-3z M27 30h1v1h-1z M30 30h1v1h-1z M32 30h1v1h-1z
+            M4 31h1v1h-1z M10 31h1v1h-1z M13 31h3v1h-3z M17 31h1v1h-1z M20 31h1v1h-1z M24 31h4v1h-4z M29 31h1v1h-1z M31 31h1v1h-1z
+            M4 32h7v1h-7z M12 32h2v1h-2z M17 32h1v1h-1z M19 32h1v1h-1z M23 32h2v1h-2z M27 32h2v1h-2z M31 32h1v1h-1z
+          "/>
+        </svg>
+        Scan for homepage
+      </a>
+    </footer>
+  </main>
+</body>
+</html>

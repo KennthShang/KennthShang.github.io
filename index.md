@@ -28,7 +28,7 @@ permalink: /
   <section class="section" id="about" aria-labelledby="about-title">
     <h2 id="about-title">About</h2>
     <div class="prose">
-      <p>I am a postdoctoral fellow in the Department of Information Engineering at The Chinese University of Hong Kong. In January 2027, I will join the Artificial Intelligence Thrust at the Information Hub of The Hong Kong University of Science and Technology (Guangzhou) as an assistant professor. I received my PhD in Electrical Engineering from City University of Hong Kong, where I was advised by <a href="https://yannisun.github.io/">Prof. Yanni Sun</a>, and completed my undergraduate studies at Sun Yat-sen University.</p>
+      <p>I am a postdoctoral fellow in the Department of Information Engineering at The Chinese University of Hong Kong, where I work with <a href="https://www.ie.cuhk.edu.hk/faculty/xing-guoliang/">Prof. Guoliang Xing</a>. In January 2027, I will join the Artificial Intelligence Thrust at the Information Hub of The Hong Kong University of Science and Technology (Guangzhou) as an assistant professor. I received my PhD in Electrical Engineering from City University of Hong Kong, where I was advised by <a href="https://yannisun.github.io/">Prof. Yanni Sun</a>, and completed my undergraduate studies at Sun Yat-sen University.</p>
       <p>I develop machine learning methods and bioinformatics tools to study microbial communities and interpret biological sequences. I use large-scale sequencing data to characterize microbial and viral diversity, infer protein function, and investigate links between the human gut microbiome and disease.</p>
     </div>
   </section>

@@ -15,6 +15,7 @@ permalink: /positions.html
     <section class="section" aria-labelledby="graduate-title">
       <h2 id="graduate-title">PhD and MPhil</h2>
       <p>I welcome applications from self-motivated students interested in computational biology, bioinformatics, or machine learning. I am interested in hearing from applicants who want to develop new computational methods as well as those who want to use them to answer questions in microbial genomics, biological sequence analysis, or microbiome research.</p>
+      <p><a href="{{ '/files/phd-recruitment.pdf' | relative_url }}">Download the one-page PhD recruitment flyer (PDF)</a>.</p>
       <p><a href="https://fytgs.hkust-gz.edu.cn/admissions/apply-now">See the official PhD and MPhil application instructions</a>.</p>
     </section>
 
